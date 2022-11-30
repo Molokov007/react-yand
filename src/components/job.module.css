@@ -1,0 +1,92 @@
+.job{
+    display: flex;
+    justify-content: center;
+}
+
+.job_con{
+    width: 1150px;
+    margin-top: 153px;
+    
+}
+
+.inst{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inst_con{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 250px;
+
+}
+
+.inst_ul{
+    display: flex;
+    align-items: center;
+}
+
+.inst_ul p{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.inst_ul a{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
+.inst_ul h2{
+    font-size: 18px;
+    padding:  5px 2px 5px 2px;
+    background: #FFDF39;
+    margin-right: 3px;
+}
+
+
+
+.inst_text{
+    margin-top: 18px;
+    font-size: 16px;
+}
+
+.job_con h1{
+    font-size: 30px;
+}
+
+
+@media(max-width:1180px) and (min-width:1101px){
+    .job_con{
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+@media(max-width:1100px){
+    .job_con{
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .inst_con{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .job_con h1{
+        text-align: center;
+    }
+    .inst{
+        justify-content: center;
+    }
+
+    
+    
+}

@@ -1,0 +1,73 @@
+.plase{
+    height: 136px;
+    background-color: #FFDF39;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.plase:hover{
+    background: #e4ca4a;
+}
+
+.text{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+@media(max-width:720px) and (min-width:371px){
+    .plase{
+        height: 200px;
+        
+    
+    }
+
+    .text{
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    img{
+        margin-top: 10px;
+    }
+}
+
+
+@media(max-width:370px){
+    .plase{
+        height: 280px;
+        
+    
+    }
+
+    .text{
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    img{
+        margin-top: 10px;
+    }
+}

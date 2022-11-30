@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Yandex Sans Display Light";
+    font-style: normal;
+    font-weight: 400;
+  
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Yandex Sans Display Light"),
+         /* Если не получилось, загрузит woff2 */
+         url("/src/styles/fonts/YandexSansDisplay-Light.woff2") format("woff2"),
+         url("/src/styles/fonts/YandexSansDisplay-Light.woff") format("woff"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/src/styles/fonts/YandexSansDisplay-Light.ttf") format("ttf");
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yandex Sans Display Light';
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    background: #E5E5E5;
+}
+
+.App{
+    width: 1368px;
+    background-color: white;
+
+    
+
+    
+}
+
+
+
+
+
+
+

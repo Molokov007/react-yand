@@ -1,0 +1,97 @@
+footer{
+    height: 120px;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+
+.text{
+    width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.nalog{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pad{
+    padding-bottom: 10px;   
+}
+
+.navb{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navb a{
+    font-size: 15px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.navb a:hover{
+    color: white;
+}
+
+.pol a{
+    font-size: 15px;
+    color: white;
+}
+
+
+
+@media(max-width:1180px) and (min-width:1055px){
+    .text{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media(max-width:1054px) and (min-width:663px){
+    .text{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+    .navb{
+        justify-content: center;
+    }
+    .pol{
+        text-align: center;
+    }
+
+}
+
+@media(max-width:662px) and (min-width:320px){
+    footer{
+        padding: 50px 0;
+        height: 300px;
+    }
+    .text{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .navb{
+        justify-content: center;
+    }
+    
+
+}
